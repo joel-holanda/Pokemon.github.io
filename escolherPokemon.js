@@ -42,12 +42,19 @@ aleatorio();
 
 function alerta(){
     palavra = document.querySelector('input').value;
-    if(palavra.toLowerCase() == pokemons[numero].   nome.toLowerCase()){
+    if(palavra.toLowerCase() == pokemons[numero].nome.toLowerCase()){
         document.querySelector('span').innerHTML = "Parabéns! É o " + pokemons[numero].nome;
-        aleatorio();
         document.querySelector('input').value = "";
+        setTimeout(reiniciar, 3000);
+
     } else {
         document.querySelector('span').innerHTML = "Você erro! era o " + pokemons[numero].nome;
-        aleatorio();
+        setTimeout(reiniciar, 3000);
     }
+}
+
+function reiniciar() {
+  document.querySelector('span').innerHTML = "";
+  document.querySelector('input').value = "";
+  aleatorio();
 }
