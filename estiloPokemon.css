@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,900");
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+div#carta01 {
+    width: 350px;
+    height: 640px;
+    background-color: #FFCC00;
+    border-radius: 10%;
+    border: 14px solid blue;
+}
+div#carta02 {
+    width: 100%;
+    height: 215px;
+    background: url(https://i.imgur.com/FbIpTsq.png);
+    background-size:cover;
+    border: 5px solid #0074bd;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.71), inset 5px 5px 7px 3px rgba(0,0,0,0.35);
+
+    margin-top: 20px;
+}
+p#quem {
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: Roboto, sans-serif;
+}
+p#voce {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: Roboto, sans-serif;
+}
+input {
+    width: 240px;
+    height: 40px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+#enviar{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 70px;
+} 
+#reload {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    margin-left: 30px;
+}
+#pokemon {
+    margin-left: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+}
+#denovo {
+    width: 20px;
+    height: 20px;
+}
